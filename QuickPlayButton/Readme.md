@@ -2,8 +2,8 @@
 
 ## Installation (for Windows)
 Downloads:
-- [Casual QuickPlay Button](https://github.com/WesselKroos/rocket-league-tools/releases/download/untagged-ae599a7fcca2076959f6/RocketLeague-QuickPlayButton-Casual-Backspace.exe)
-- [Competitive QuickPlay Button](https://github.com/WesselKroos/rocket-league-tools/releases/download/untagged-ae599a7fcca2076959f6/RocketLeague-QuickPlayButton-Competitive-Backspace.exe)
+- [Casual QuickPlay Button](https://github.com/WesselKroos/rocket-league-tools/releases/download/v-1.0.0/RocketLeague-QuickPlayButton-Casual-Backspace.exe)
+- [Competitive QuickPlay Button](https://github.com/WesselKroos/rocket-league-tools/releases/download/v-1.0.0/RocketLeague-QuickPlayButton-Competitive-Backspace.exe)
 
 ## How to use
 Download the casual or competitive QuickPlay Button and then follow these steps:
