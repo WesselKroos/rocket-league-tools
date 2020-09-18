@@ -3,30 +3,20 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
+;Read config
+IniRead, Key, config.ini, Settings, key
+IniRead, Mode, config.ini, Settings, Mode
 
-;;;;;;;;;;;;
-;Settings
-;;;;;;;;;;;;
-
-;List of all hotkey names: https://www.autohotkey.com/docs/Hotkeys.htm
-Key=Backspace
-
-Mode=1
-;0 = Casual
-;1 = Competitive
-
-;;;;;;;;;;;;
-;Script code
-;;;;;;;;;;;;
-
+;Bind HotKey
 Hotkey,~%Key%,QuickPlay
 Return
 
+;HotKey Script
 QuickPlay:
 
 IfWinActive, Rocket League
 {
-  if(Key != Enter && Key != Spacebar && Key != Backspace) {
+  if(Key != Enter && Key != Space && Key != Backspace) {
     Send {Enter}
   }
   Sleep, 200
