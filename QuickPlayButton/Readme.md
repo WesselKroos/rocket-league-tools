@@ -8,7 +8,7 @@ Downloads:
 ## How to use
 Download the casual or competitive QuickPlay Button and then follow these steps:
 1. Double click the downloaded .exe file. 
-(A green `A` icon should appear in the Windows toolbar in the bottom right.)
+(A green `H` icon should appear in the Windows toolbar in the bottom right.)
 2. Open to Rocket League and navigate to the `Play` button (but don't click on it)
 3. Press `Backspace`
 
