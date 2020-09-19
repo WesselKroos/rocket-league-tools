@@ -4,9 +4,9 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ;Read config
-IniRead, Key, config.ini, Settings, key
-IniRead, Mode, config.ini, Settings, Mode
-IniRead, Delay, config.ini, FineTuning, KeyPressDelay
+IniRead, Key, config.ini, Settings, key, Control
+IniRead, Mode, config.ini, Settings, Mode, 0
+IniRead, Delay, config.ini, FineTuning, KeyPressDelay, 200
 
 ;Bind HotKey
 Hotkey,~%Key%,QuickPlay
