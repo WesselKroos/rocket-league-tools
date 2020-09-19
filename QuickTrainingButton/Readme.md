@@ -9,7 +9,7 @@
 1. Double click the `RocketLeague-QuickTrainingButton.exe` file. 
 (A green `H` icon should appear in the Windows toolbar at the bottom right of your screen.)
 2. Open `Rocket League` and navigate to the `Play` button (but don't click on it)
-3. Press `Alt` (Or the custom Key you set in the config.ini file)
+3. Press `Right Ctrl` (Or the custom Key you set in the config.ini file)
 4. In the End match screen navigate to the `Play` button again and press the same key.
 
 ## Launch at Windows startup
