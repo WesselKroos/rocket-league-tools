@@ -34,11 +34,8 @@ IfWinActive, Rocket League
     Sleep, 1
   }
   Send {Enter}
-  Sleep, %Delay%
   Send {Esc}
-  Sleep, %Delay%
   Send {Esc}
-  Sleep, %Delay%
   Send {Esc}
 
   return
