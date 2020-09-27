@@ -7,6 +7,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 IniRead, Key, config.ini, Settings, key, Alt
 IniRead, Training, config.ini, Settings, Training, 0
 IniRead, Delay, config.ini, FineTuning, KeyPressDelay, 200
+IniRead, ShortDelay, config.ini, FineTuning, ShortDelay, 100
 
 ;Bind HotKey
 Hotkey,~%Key%,QuickTraining
@@ -21,19 +22,27 @@ IfWinActive, Rocket League
     Send {Enter}
   }
   Sleep, %Delay%
+  Loop 2 {
+    Send {Right}
+    Sleep, %ShortDelay%
+  }
+  Loop 2 {
+    Send {Left}
+    Sleep, %ShortDelay%
+  }
   Send {Down}
-  Sleep, 1
+  Sleep, %ShortDelay%
   Send {Enter}
   Sleep, %Delay%
   Loop %Training% {
     Send {Right}
-    Sleep, 1
+    Sleep, %ShortDelay%
   }
   Send {Enter}
   Sleep, %Delay%
   Loop %Training% {
     Send {Down}
-    Sleep, 1
+    Sleep, %ShortDelay%
   }
   Send {Enter}
 
