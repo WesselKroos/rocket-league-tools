@@ -16,7 +16,7 @@ Return
 ;HotKey Script
 QuickPlay:
 
-IfWinActive, Rocket League
+if WinActive("Rocket League (64-bit, DX11, Cooked)")
 {
   if(Key != Enter && Key != Space && Key != Backspace) {
     Send {Enter}
